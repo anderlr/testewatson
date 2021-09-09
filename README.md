@@ -5,7 +5,7 @@
 Requisitos:
 
 <li>XAMPP(Windows ou Linux) ou programa similar como WampServer para banco de dados local</li>
-<li>phpMyAdmin/ou mySQL Workbench para gerenciar o banco de dados mySQL</li>
+<li>phpMyAdmin/ou MySQL Workbench para gerenciar o banco de dados mySQL</li>
 <li>npm(Node Package Manager) deve estar instalado também</li>
 
 ### 1 Primeiro passo: Banco de dados
@@ -61,6 +61,8 @@ Dentro do arquivo temos sete variavel de ambiente que são utilizadas pela API, 
 4.1 Feitos os passos anteriores você deve abrir o banco de dados
 pelo XAMPP por exemplo e se certificar de que esteja conectando.
 
+(No caso do XAMPP é preciso inicializar tanto o MySQL quanto o Apache)
+
 4.2 Na linha de comando acesse a pasta testewatson/testeWatsonFront e execute
 
 ```
@@ -75,3 +77,10 @@ npm start
 
 4.4 Se todos os passos foram seguidos você deve agora poder acessar a aplicação em http://localhost:3000/
 que é o padrão do React ^^
+
+### AVISO
+
+```
+Ao solicitar o audio , pode ser que você um erro no console do navegador relacionado ao CORS como : "Request header field access-control-allow-origin is not allowed by Access-Control-Allow-Headers ...".
+Para resolver isto basta tentar outro navegador ou uma extensão que ative o CORS exemplo:(Allow CORS: Access-Control-Allow-Origin para o Google Chrome)
+```

@@ -45,11 +45,8 @@ export default class CommentList extends React.Component {
           this.setState({
             audio: [
               ...this.state.audio,
-              <audio controls autoPlay id={id}>
-                <source
-                  src={res.request.res.responseUrl}
-                  type="audio/ogg"
-                ></source>
+              <audio controls autoPlay id={id} key={id}>
+                <source src={url} type="audio/ogg"></source>
               </audio>,
             ], //Pegando a resposta forcencida pela api (link do audio)
           });

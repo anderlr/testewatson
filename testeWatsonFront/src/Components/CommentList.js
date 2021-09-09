@@ -48,7 +48,7 @@ export default class CommentList extends React.Component {
               <audio controls autoPlay id={id} key={id}>
                 <source src={url} type="audio/ogg"></source>
               </audio>,
-            ], //Pegando a resposta forcencida pela api (link do audio)
+            ], //Pegando a resposta forcencida pela api (link do audio) e colocando na pagina com id proprio para ser tocado
           });
         });
     }

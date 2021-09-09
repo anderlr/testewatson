@@ -3,11 +3,11 @@ const mysql = require("mysql");
 const pool = mysql.createPool({
   //informaçoes para conexão com o banco
   connectionLimit: 10, //numero de conexÕes com o banco de dados
-  password: "",
-  user: "root",
+  password: process.env.DB_PASSOWORD,
+  user: process.env.DB_USER,
   database: "comments",
-  host: "localhost",
-  port: "3306",
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
 });
 
 let commentsdb = {};

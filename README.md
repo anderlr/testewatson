@@ -8,7 +8,7 @@ Requisitos:
 <li>phpMyAdmin/ou MySQL Workbench para gerenciar o banco de dados mySQL</li>
 <li>npm(Node Package Manager) deve estar instalado também</li>
 
-### 1 Primeiro passo: Banco de dados
+### Primeiro passo: Banco de dados
 
 1.1 Crie um banco chamado "comments", o nome deve ser exatamente esse
 

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #294e97;
 }
 
 .App-logo {
@@ -63,4 +64,8 @@ textarea {
   box-sizing: border-box;
 
   width: 100%;
+}
+
+button {
+  background-color: #294e97;
 }

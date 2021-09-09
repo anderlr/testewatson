@@ -80,7 +80,5 @@ que é o padrão do React ^^
 
 ### AVISO
 
-```
 Ao solicitar o audio , pode ser que você um erro no console do navegador relacionado ao CORS como : "Request header field access-control-allow-origin is not allowed by Access-Control-Allow-Headers ...".
 Para resolver isto basta tentar outro navegador ou uma extensão que ative o CORS exemplo:(Allow CORS: Access-Control-Allow-Origin para o Google Chrome)
-```

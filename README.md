@@ -4,7 +4,7 @@ Um pequeno projeto em React onde o usuário insere comentários na página
 do aplicativo. Por sua vez eles ele são armazenados em um banco de dados MySQL por uma
 API feita em NodeJS.
 
-As requisições AJAX são feitas pela biblioteca Axios e já no backend o banco de dados
+As requisições AJAX são feitas no front-end pela biblioteca Axios e já no back-end o banco de dados
 é acessado pelo framework Express para inserir os comentários.
 
 ## Como Executar

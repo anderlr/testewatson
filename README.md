@@ -10,15 +10,15 @@ Requisitos:
 
 ### 1 Primeiro passo: Banco de dados
 
-    1.1 Crie um banco chamado "comments", o nome deve ser exatamente esse
+1.1 Crie um banco chamado "comments", o nome deve ser exatamente esse
 
-    1.2 No phpMyAdmin (ou SQL Workbench) Execute TODOS os comandos SQL no arquivo: comments.sql
+1.2 No phpMyAdmin (ou SQL Workbench) Execute TODOS os comandos SQL no arquivo: comments.sql
 
-    1.3 Você deve conferir se o banco de dados foi criado e já possui dois comentários de exemplo inseridos
+1.3 Você deve conferir se o banco de dados foi criado e já possui dois comentários de exemplo inseridos
 
-    Atenção aqui para o port, usuario, senha e host do banco que serão usados no passo 3. Recomendo
-    deixar as opções padrão como senha vazia e usuario root mas se usar algo diferente basta
-    se certificar de que as credenciais do banco batem com as variaveis de ambiente.
+Atenção aqui para o port, usuario, senha e host do banco que serão usados no passo 3. Recomendo
+deixar as opções padrão como senha vazia e usuario root mas se usar algo diferente basta
+se certificar de que as credenciais do banco batem com as variaveis de ambiente.
 
 ### Segundo passo: Instalando dependencias
 

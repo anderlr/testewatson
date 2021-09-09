@@ -20,7 +20,7 @@ function App() {
             </div>
             <div className="col">
               <h1>Comentarios</h1>
-              <CommentList></CommentList>
+              <CommentList></CommentList> 
             </div>
           </div>
         </Container>

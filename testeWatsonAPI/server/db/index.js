@@ -1,9 +1,9 @@
 const mysql = require("mysql");
-
+require('dotenv').config();
 const pool = mysql.createPool({
   //informaçoes para conexão com o banco
   connectionLimit: 10, //numero de conexÕes com o banco de dados
-  password: process.env.DB_PASSOWORD,
+  password: process.env.DB_PASSWORD,
   user: process.env.DB_USER,
   database: "comments",
   host: process.env.DB_HOST,
